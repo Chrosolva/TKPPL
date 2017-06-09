@@ -83,10 +83,11 @@ pre[class*="language-"] {
 	color: #a6e22e;
 }
 .bespoke-slide{
-    background : white;
+    background : indianred;
+    border: 1px solid indianred;
 }
 .bespoke-parent {
-    background : white;
+    background : indianred;
     color: indianred;
 }
 .token.operator,

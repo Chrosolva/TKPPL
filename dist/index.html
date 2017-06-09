@@ -5,78 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Hello World</title>
     <link rel="stylesheet" type="text/css" href="build/build.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="gallery-clean.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fluid-gallery.css">
+    <style>
+        img{
+            width: 30%;
+            height: 25%;
+        }
+        h2,h3{
+            background-color: white;
+            color: indianred;
+            padding: 2%;
+        }
+        .kotak{
+            background: white;
+            padding: 2%;
+        }
+        .tz-gallery{
+            background: white;
+            padding: 3%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+    </style>
   </head>
   <body>
     <article>
       <section>
-        <h2>FOODS AROUND THE WORLD</h2>
+        <h2>FOODIES</h2>
       </section>
       <section> 
-        <h3>CREATED BY :</h3>
-        <center>ALBERT - 15.111.0369</center>
-        <center>GUNAWAN - 15.111.0580</center>
-        <center>ELWIN - 15.111.0806</center>
-        <center>ANDRYA TANRISIONO - 15.111.2718</center>
+        <h3>DESIGNED BY</h3><br>
+        <div class="kotak">
+            <center>ALBERT   - 15.111.0369</center><br>
+            <center>GUNAWAN  - 15.111.0580</center><br>
+            <center>ELWIN    - 15.111.0806</center><br>
+            <center>ANDRYA.T - 15.111.2718</center>
+        </div>
       </section>
       <section>
-        <div class="container gallery-container">
-            <div class="tz-gallery">
-                <div class="row">
-                    <div class="col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12">
-                        <div class="thumbnail">
-                            <a class="lightbox" href="home.html">
-                                <img src="images/western.png" alt="Park">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12">
-                        <div class="thumbnail">
-                            <a class="lightbox" href="">
-                                <img src="images/asian.png" alt="Bridge">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12">
-                        <div class="thumbnail">
-                            <a class="lightbox" href="">
-                                <img src="images/spgt.jpg" alt="Tuneel">
-                            </a>
-                        </div>
-                    </div>
+        <div class="tz-gallery">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox">
+                        <img src="images/dessert.png" alt="Bridge">
+                    </a>
                 </div>
-                <div class="row">
-                    <div class="col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12">
-                        <div class="thumbnail">
-                            <a class="lightbox" href="">
-                                <img src="images/mcr.jpg" alt="Park">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12">
-                        <div class="thumbnail">
-                            <a class="lightbox" href="">
-                                <img src="images/pizza.jpg" alt="Bridge">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12">
-                        <div class="thumbnail">
-                            <a class="lightbox" href="">
-                                <img src="images/ikan.jpg" alt="Tuneel">
-                            </a>
-                        </div>
-                    </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox">
+                        <img src="images/appetizer.png">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox">
+                        <img src="images/beverages.png">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-8">
+                    <a class="lightbox" href="home.html">
+                        <img src="images/main.png">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox">
+                        <img src="images/coast.jpg" alt="Coast">
+                    </a>
+                </div> 
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox">
+                        <img src="images/rails.jpg" alt="Rails">
+                    </a>
                 </div>
             </div>
         </div>
-      </section>
+
+    </section>
     </article>
     <script src="build/build.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-      
-  <input name="animation" type="hidden">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <input name="animation" type="hidden">
   </body>
 </html>
