@@ -106,20 +106,20 @@
 	font-size: 14px;
 	font-weight: 700;
 	color: indianred;
+    border: none;
+    background: white;
 	letter-spacing: 4px;
 	float: right;
-	border: 3px solid #555;
 	padding: 3px;
 	text-indent: 4px;
 }
 
 .no-touch .ps-content a:last-child:hover {
-	color: #b2d79d;
-	border-color: #b2d79d;
+	color: white;
+    background: indianred;
 }
 
 .ps-content a:last-child:before {
-	content: '\53';
 	font-family: 'icon';
 	font-style: normal;
 	font-weight: normal;
