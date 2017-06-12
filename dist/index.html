@@ -8,6 +8,14 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/fluid-gallery.css">
     <style>
+        @font-face {
+            font-family: foods;
+            src: url("fonts/October Twilight - OTF.otf");
+        }
+        @font-face {
+            font-family: nama;
+            src: url("fonts/Roboto-Thin.ttf");
+        }
         body {
             opacity: 1;
             transition: 1s opacity;
@@ -20,17 +28,32 @@
             width: 30%;
             height: 25%;
         }
-        h2,h3{
-            background-color: white;
+        
+        h2{
+            font-size: 300%;
             color: indianred;
             padding: 2%;
+            font-family: foods;
+        }
+        h3{
+            font-size: 200%;
+            color: indianred;
+            padding: 2%;
+            font-family: foods;
         }
         .kotak{
-            background: white;
-            padding: 2%;
+            color: white;
+            background: rgba(0,0,0,0.1);
+            border-radius: 10px;
+            border: 1px solid indianred;
+            padding: 5%;
+            padding-left: 20%;
+            padding-right: 20%;
+            font-family: nama;
+            font-weight: lighter;
         }
         .tz-gallery{
-            background: white;
+            background: transparent;
             padding: 3%;
             padding-left: 5%;
             padding-right: 5%;
@@ -40,15 +63,19 @@
   <body>
     <article>
       <section>
-        <h2>FOODIES</h2>
+        <h2>Foodies</h2>
       </section>
       <section> 
-        <h3>DESIGNED BY</h3><br>
+        <h3>Designed by</h3><br>
         <div class="kotak">
-            <center>ALBERT   - 15.111.0369</center><br>
-            <center>GUNAWAN  - 15.111.0580</center><br>
-            <center>ELWIN    - 15.111.0806</center><br>
-            <center>ANDRYA.T - 15.111.2718</center>
+            <p>Albert</p>
+            <p>151110369</p>
+            <p>Elwin</p>
+            <p>151110806</p>
+            <p>Gunawan</p>
+            <p>151110580</p>
+            <p>Andrya</p>
+            <p>151112718</p>
         </div>
       </section>
       <section>

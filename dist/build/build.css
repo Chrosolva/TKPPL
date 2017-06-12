@@ -83,11 +83,13 @@ pre[class*="language-"] {
 	color: #a6e22e;
 }
 .bespoke-slide{
-    background : indianred;
-    border: 1px solid indianred;
+    background: transparent;
+    border: none;
 }
 .bespoke-parent {
-    background : indianred;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/bg.jpg");
     color: indianred;
 }
 .token.operator,

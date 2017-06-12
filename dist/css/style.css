@@ -20,7 +20,7 @@
 	overflow: hidden;
 	text-transform: uppercase;
 	color: indianred;
-    background: #fff;
+    background: indianred;
 }
 
 .ps-container > div {
@@ -43,7 +43,7 @@
 }
 
 .ps-header h1 {
-	color: #ccc;
+	color: red;
 	line-height: 150px;
 	margin: 0;
 	padding: 0 50px;
@@ -60,7 +60,8 @@
 }
 
 .ps-content {
-	background: #fff;
+	background: indianred;
+    color: white;
 	width: 100%;
 	height: 100%;
 	padding: 50px;
@@ -159,12 +160,12 @@
 	height: 100%;
 	position: relative;
 	float: left;
-	box-shadow: inset 0 0 0 9999px rgba(207,227,206,0.8);
+	box-shadow: inset 0 0 0 9999px rgba(0,0,0,0.5);
 	outline: none;
 }
 
 .ps-slidewrapper > nav > a:first-child {
-	box-shadow: inset 0 0 0 9999px rgba(233,217,141,0.8);
+	box-shadow: inset 0 0 0 9999px rgba(0,0,0,0.5);
 }
 
 .no-touch .ps-slidewrapper > nav > a {
@@ -176,11 +177,11 @@
 }
 
 .no-touch .ps-slidewrapper > nav > a:hover {
-	box-shadow: inset 0 0 0 9999px rgba(246,224,121,0.1);
+	box-shadow: inset 0 0 0 9999px rgba(255,255,255,0.1);
 }
 
 .no-touch .ps-slidewrapper > nav > a:first-child:hover {
-	box-shadow: inset 0 0 0 9999px rgba(249,15,15,0.1);
+	box-shadow: inset 0 0 0 9999px rgba(255,255,255,0.1);
 }
 
 .ps-slidewrapper > nav > a:after {
@@ -211,9 +212,9 @@
 
 .ps-slides > div,
 .ps-slidewrapper > nav > a {
-	background-color: #fff;
+	background-color: white;
 	background-position: center top;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	-webkit-background-size: auto 100%;
 	-moz-background-size: auto 100%;
 	background-size: auto 100%;
