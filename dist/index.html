@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>FOODIES</title>
+    <title>FOODS & BEVERAGES</title>
     <link rel="stylesheet" type="text/css" href="build/build.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/fluid-gallery.css">
@@ -33,6 +33,7 @@
             font-size: 300%;
             color: indianred;
             padding: 2%;
+            display: none;
             font-family: foods;
         }
         h3{
@@ -55,15 +56,32 @@
         .tz-gallery{
             background: transparent;
             padding: 3%;
+            display: none;
             padding-left: 5%;
             padding-right: 5%;
         }
     </style>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+            $("h2").animate({
+                height: 'show'
+            });
+            $("div.tz-gallery").animate({
+                height: 'show'
+            });
+        });
+        $(document).ready(function(){
+            $("a.lightbox").click(function(){
+                $("body").slideUp(2000);
+            });
+        });
+    </script> 
   </head>
   <body>
     <article>
       <section>
-        <h2>Foodies</h2>
+        <h2>Foods & Beverages</h2>
       </section>
       <section> 
         <h3>Designed by</h3><br>
@@ -87,7 +105,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-4">
-                    <a class="lightbox">
+                    <a class="lightbox" href="appetizer.html">
                         <img src="images/appetizer.png">
                     </a>
                 </div>
@@ -108,7 +126,7 @@
                 </div> 
                 <div class="col-sm-6 col-md-4">
                     <a class="lightbox">
-                        <img src="images/rails.jpg" alt="Rails">
+                        <img src="images/coffee.png" alt="Rails">
                     </a>
                 </div>
             </div>
@@ -117,7 +135,6 @@
     </section>
     </article>
     <script src="build/build.js"></script>
-    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/jquery.smoothState.js"></script>
     <script>document.body.className += ' fade-out';</script>
     <script>$(function() {

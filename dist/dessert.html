@@ -25,7 +25,22 @@
             opacity: 0;
             transition: none;
         }
+        .ps-slides,.ps-content h2{
+            display: none;
+        }
     </style>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+            $("div.ps-slides").animate({
+                width: 'show'
+            });
+            $("div.ps-content h2").animate({
+                height: 'show'
+            });
+        });
+        
+    </script> 
     <body>
 		<section id="ps-container" class="ps-container">
 		
@@ -97,7 +112,6 @@
 		</section><!-- /ps-container -->
 			
 		<!-- jQuery if needed -->
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/slider.js"></script>
 		<script type="text/javascript">
 			$(function() {
